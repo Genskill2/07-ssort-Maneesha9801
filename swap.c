@@ -1,7 +1,7 @@
 void swap_max( int arr[], int l, int n){
  int swap =0;
  int index =0;
- int a=0;
+ int a=-9999;
  for( int i =n;i<l;i++){
  if(a<arr[i]){
  a=arr[i];
